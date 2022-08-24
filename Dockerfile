@@ -1,6 +1,6 @@
-FROM node:lts-alpine
+FROM node:lts-alpine AS builder
 
-LABEL maintainer="Hoppscotch (support@hoppscotch.io)"
+LABEL maintainer="udaan"
 
 # Add git as the prebuild target requires it to parse version information
 RUN apk add --no-cache --virtual .gyp \
@@ -26,4 +26,8 @@ RUN mv packages/hoppscotch-app/.env.example packages/hoppscotch-app/.env
 
 RUN pnpm run generate
 
-CMD ["pnpm", "run", "start"]
+FROM nginx:latest
+
+COPY --from=builder /app/packages/hoppscotch-app/dist /usr/share/nginx/html/hoppscotch-service
+
+CMD nginx

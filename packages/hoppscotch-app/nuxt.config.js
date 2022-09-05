@@ -351,6 +351,6 @@ export default {
   router: {
     linkActiveClass: "active-link",
     linkExactActiveClass: "exact-active-link",
-    base: '/hoppscotch-service/',
+    base: '/udaan-daakiya/',
   },
 }

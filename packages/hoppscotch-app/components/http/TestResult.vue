@@ -142,7 +142,7 @@
       class="flex flex-col items-center justify-center flex-1 p-4"
     >
       <img
-        :src="`/images/states/${$colorMode.value}/youre_lost.svg`"
+        :src="`/udaan-daakiya/images/states/${$colorMode.value}/youre_lost.svg`"
         loading="lazy"
         class="inline-flex flex-col object-contain object-center w-32 h-32 my-4"
         :alt="`${t('error.test_script_fail')}`"
@@ -161,7 +161,7 @@
       class="flex flex-col items-center justify-center p-4 text-secondaryLight"
     >
       <img
-        :src="`/images/states/${$colorMode.value}/validation.svg`"
+        :src="`/udaan-daakiya/images/states/${$colorMode.value}/validation.svg`"
         loading="lazy"
         class="inline-flex flex-col object-contain object-center w-16 h-16 my-4"
         :alt="`${t('empty.tests')}`"

@@ -225,7 +225,7 @@
             class="flex flex-col items-center justify-center p-4 text-secondaryLight"
           >
             <img
-              :src="`/images/states/${$colorMode.value}/add_group.svg`"
+              :src="`/udaan-daakiya/images/states/${$colorMode.value}/add_group.svg`"
               loading="lazy"
               class="inline-flex flex-col object-contain object-center w-16 h-16 mb-4"
               :alt="`${t('empty.invites')}`"

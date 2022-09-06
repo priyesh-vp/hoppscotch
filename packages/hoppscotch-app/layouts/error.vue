@@ -1,7 +1,7 @@
 <template>
   <div class="page page-error">
     <img
-      :src="`/images/states/${$colorMode.value}/youre_lost.svg`"
+      :src="`/udaan-daakiya/images/states/${$colorMode.value}/youre_lost.svg`"
       loading="lazy"
       class="inline-flex flex-col object-contain object-center my-4 h-46 w-46"
       :alt="message"

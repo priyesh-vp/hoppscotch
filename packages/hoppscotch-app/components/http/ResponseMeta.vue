@@ -60,7 +60,7 @@
         class="flex flex-col items-center justify-center flex-1 p-4"
       >
         <img
-          :src="`/images/states/${$colorMode.value}/youre_lost.svg`"
+          :src="`/udaan-daakiya/images/states/${$colorMode.value}/youre_lost.svg`"
           loading="lazy"
           class="inline-flex flex-col object-contain object-center w-32 h-32 my-4"
           :alt="`${t('error.network_fail')}`"
@@ -80,7 +80,7 @@
         class="flex flex-col items-center justify-center flex-1 p-4"
       >
         <img
-          :src="`/images/states/${$colorMode.value}/youre_lost.svg`"
+          :src="`/udaan-daakiya/images/states/${$colorMode.value}/youre_lost.svg`"
           loading="lazy"
           class="inline-flex flex-col object-contain object-center w-32 h-32 my-4"
           :alt="`${t('error.script_fail')}`"

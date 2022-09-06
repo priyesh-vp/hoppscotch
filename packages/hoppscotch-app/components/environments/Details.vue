@@ -82,7 +82,7 @@
             class="flex flex-col items-center justify-center p-4 text-secondaryLight"
           >
             <img
-              :src="`/images/states/${$colorMode.value}/blockchain.svg`"
+              :src="`/udaan-daakiya/images/states/${$colorMode.value}/blockchain.svg`"
               loading="lazy"
               class="inline-flex flex-col object-contain object-center w-16 h-16 my-4"
               :alt="`${t('empty.environments')}`"
